@@ -11,4 +11,5 @@ get '/square/:number' do
   @number = params[:number]
   @result = @number.to_i
 end
+
 end
