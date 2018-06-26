@@ -12,5 +12,6 @@ get '/square/:number' do
   @result = @number.to_i
 end
 
-get ''
+get '/say/:number/:phrase' do 
+  
 end
